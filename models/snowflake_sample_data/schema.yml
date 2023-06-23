@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_trial111
+    description: 'Sample db from SF'
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: STORE_SALES  # enabled
+        description: 'details about table'
